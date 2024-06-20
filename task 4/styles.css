@@ -1,0 +1,110 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #9ec59e; /* Sage green */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffb6c1; /* Light pink */
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+    text-align: center;
+}
+
+/* About Me Section */
+.about-content {
+    line-height: 1.8;
+}
+
+/* Projects Section */
+.projects-content {
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact-content {
+    line-height: 1.8;
+    text-align: center;
+}
+
+.contact-content a {
+    color: #333; /* Dark text color */
+    text-decoration: underline;
+}
+
+.contact-content a:hover {
+    color: #77dd77; /* Sage green */
+}
+
+.headline {
+    font-size: 6rem; 
+    font-weight: 700; 
+    color: #333; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.summary {
+    font-size: 1.2rem;
+    color: #666; /* Adjust as needed */
+}
